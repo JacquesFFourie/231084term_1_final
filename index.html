@@ -5,6 +5,9 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <!--External-->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Dancing+Script&family=Playfair+Display:wght@400;600&family=Sedgwick+Ave+Display&display=swap" rel="stylesheet">
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-aFq/bzH65dt+w6FI2ooMVUpc+21e0SRygnTpmBvdBgSdnuTN7QbdgL+OapgHtvPp" crossorigin="anonymous">
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha2/dist/js/bootstrap.bundle.min.js" integrity="sha384-qKXV1j0HvMUeCBQ+QVp7JcfGl760yU08IQ+GpUo5hlbpg51QRiuqHAJz8+BrxE/N" crossorigin="anonymous"></script>
     <!--Internal-->
@@ -13,141 +16,55 @@
 </head>
 <body>
     
-    <div class="container-fluid">
-        <nav>
-            <div class="logo">logo</div>
-            <div class="nav-bar">
-                <div class="buttons">
-                    <ul>
-                        <a href="/pages/aboutUs.html"><li>about us</li></a>
-                        <a href="/pages/favourites.html"><li>favourites</li></a>
-                        <li>wha</li>
-                    </ul>
-                </div>
+<div class="container-fluid">
+    <nav>
+        <a href="/index.html"><div class="logo"><img class="logo-style" src="/assets/logo/stream_logo_black.png"></div></a>
+        <div class="nav-bar">
+            <div class="buttons">
+                <a><button type="button" class="btn">Recent Releases</button></a>
+                <a><button type="button" class="btn">Favorites</button></a>
+                <a href="/pages/aboutLabel.html" type="button" class="btn">Popular Albums</button></a>
+                <a href="/pages/playlists.html"><button type="button" class="btn">Playlists</button></a>
+                <!--<ul>
+                    <a href="/pages/aboutUs.html"><li>about us</li></a>
+                    <a href="/pages/favourites.html"><li>favourites</li></a>
+                    <li>wha</li>
+                </ul>-->
             </div>
-        </nav>
-        <header>
-                <h3>Artist</h3>
-                <h1>Album Name</h1>
-                <div class="top-buttons">
-                    <ul>
-                        <li>Play</li>
-                        <li>Shuffle</li>
-                        <li><img src="/assets/icons/heart_icon_smal.svg"></li>
-                    </ul>
-                </div>
-        </header>
+            <div class="search">Search bar<img class="search-scope" src = "assets/icons/other/search_icon.svg"></div>
+        </div>
+    </nav>
+    <header>
+            <h3>NF</h3>
+            <h1>Hope</h1>
+            <div class="top-buttons">
+                <button type="button" class="top-btn">Play</button>
+                <button type="button" class="top-btn">Shuffle</button>
+                <img class="heart-icon" src="/assets/icons/other/heart_icon.svg">
+                
+            </div>
+    </header>
         <section class="inter">
-            <div class="col-6-one">col 1</div>
+            <div class="col-6-one"><iframe width="560" height="315" src="https://www.youtube.com/embed/vhumOLNSSJY" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe></div>
             <div class="col-6-two">
-                <h3></h3>
-                <h1></h1>
-                <p></p>
+                <h3>Featured Artists</h3>
+                <h1>NF</h1>
+                <p>Nathan John Feuerstein, known by his initials NF, is an American rapper, singer, songwriter, and record producer. He has released two EPs, I'm Free, and a self-titled EP in 2014 with Capitol CMG. His first major-label album, Mansion, was released on March 31, 2015.</p>
+                
                 <div class="arrow-button">
-                    <img src="/assets/icons/previous_icon.svg"><img src="/assets/icons/next_icon.svg">
+                    <img class="arrow" src="/assets/icons/other/left_arrow_icon.svg"><img class="arrow"src="/assets/icons/other/right_arrow_icon.svg">
                 </div>
             </div>
         </section>
         <section class="four">
             <h3>Recent Releases</h3>
             <div class="col-3-two">
-                <div class="backgroundIMG1">
-                    <div class="overlay">
-                        <div class="icon"></div>
-                        <div class="content">
-                            <h3>Album Name</h3>
-                            <p>Artist Name</p>
-                        </div>
-                    </div>
-                </div>
-            </div>
-            <div class="col-3-two">
-                <div class="backgroundIMG2">
-                    <div class="overlay">
-                        <div class="icon"></div>
-                        <div class="content">
-                            <h3>Album Name</h3>
-                            <p>Artist Name</p>
-                        </div>
-                    </div>
-                </div>
-            </div>
-            <div class="col-3-two">
-                <div class="backgroundIMG3">
-                    <div class="overlay">
-                        <div class="icon"></div>
-                        <div class="content">
-                            <h3>Album Name</h3>
-                            <p>Artist Name</p>
-                        </div>
-                    </div>
-                </div>
-            </div>
-            <div class="col-3-two">
-                <div class="backgroundIMG4">
-                    <div class="overlay">
-                        <div class="icon"></div>
-                        <div class="content">
-                            <h3>Album Name</h3>
-                            <p>Artist Name</p>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </section>
-                <section class="four">
-            <h3>Popular Albums</h3>
-            <div class="col-3-two">
-                <div class="backgroundIMG5">
-                    <div class="overlay">
-                        <div class="icon"></div>
-                        <div class="content">
-                            <h3>Album Name</h3>
-                            <p>Artist Name</p>
-                        </div>
-                    </div>
-                </div>
-            </div>
-            <div class="col-3-two">
-                <div class="backgroundIMG6">
-                    <div class="overlay">
-                        <div class="icon"></div>
-                        <div class="content">
-                            <h3>Album Name</h3>
-                            <p>Artist Name</p>
-                        </div>
-                    </div>
-                </div>
-            </div>
-            <div class="col-3-two">
-                <div class="backgroundIMG7">
-                    <div class="overlay">
-                        <div class="icon"></div>
-                        <div class="content">
-                            <h3>Album Name</h3>
-                            <p>Artist Name</p>
-                        </div>
-                    </div>
-                </div>
-            </div>
-            <div class="col-3-two">
-                <div class="backgroundIMG8">
-                    <div class="overlay">
-                        <div class="icon"></div>
-                        <div class="content">
-                            <h3>Album Name</h3>
-                            <p>Artist Name</p>
-                        </div>
-                    </div>
-                </div>
-            </div>
-            <div class="col-3-two">
                 <div class="backgroundIMG9">
                     <div class="overlay">
                         <div class="icon"></div>
                         <div class="content">
-                            <h3>Album Name</h3>
-                            <p>Artist Name</p>
+                            <h3>~How Im feeling~</h3>
+                            <p>Lauv</p>
                         </div>
                     </div>
                 </div>
@@ -157,8 +74,8 @@
                     <div class="overlay">
                         <div class="icon"></div>
                         <div class="content">
-                            <h3>Album Name</h3>
-                            <p>Artist Name</p>
+                            <h3>Sunflower</h3>
+                            <p>Post Malone</p>
                         </div>
                     </div>
                 </div>
@@ -168,8 +85,8 @@
                     <div class="overlay">
                         <div class="icon"></div>
                         <div class="content">
-                            <h3>Album Name</h3>
-                            <p>Artist Name</p>
+                            <h3>The Drive</h3>
+                            <p>Everyone You Know</p>
                         </div>
                     </div>
                 </div>
@@ -179,15 +96,112 @@
                     <div class="overlay">
                         <div class="icon"></div>
                         <div class="content">
-                            <h3>Album Name</h3>
-                            <p>Artist Name</p>
+                            <h3>Sometimes</h3>
+                            <p>Mattyeux</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section class="four">
+            <h3>Popular Albums</h3>
+            <div class="col-3-two">
+                <div class="backgroundIMG5">
+                    <div class="overlay">
+                        <div class="icon"></div>
+                        <div class="content">
+                            <h3>EP</h3>
+                            <p>NF</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="col-3-two">
+                <div class="backgroundIMG6">
+                    <div class="overlay">
+                        <div class="icon"></div>
+                        <div class="content">
+                            <h3>Perception</h3>
+                            <p>NF</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="col-3-two">
+                <div class="backgroundIMG7">
+                    <div class="overlay">
+                        <div class="icon"></div>
+                        <div class="content">
+                            <h3>The Search</h3>
+                            <p>NF</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="col-3-two">
+                <div class="backgroundIMG8">
+                    <div class="overlay">
+                        <div class="icon"></div>
+                        <div class="content">
+                            <h3>Therapy Session</h3>
+                            <p>NF</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="col-3-two">
+                <div class="backgroundIMG1">
+                    <div class="overlay">
+                        <div class="icon"></div>
+                        <div class="content">
+                            <h3>Chasing</h3>
+                            <p>NF</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="col-3-two">
+                <div class="backgroundIMG2">
+                    <div class="overlay">
+                        <div class="icon"></div>
+                        <div class="content">
+                            <h3>Clouds</h3>
+                            <p>NF</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="col-3-two">
+                <div class="backgroundIMG3">
+                    <div class="overlay">
+                        <div class="icon"></div>
+                        <div class="content">
+                            <h3>Hope</h3>
+                            <p>NF</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="col-3-two">
+                <div class="backgroundIMG4">
+                    <div class="overlay">
+                        <div class="icon"></div>
+                        <div class="content">
+                            <h3>Mansion</h3>
+                            <p>NF</p>
                         </div>
                     </div>
                 </div>
             </div>
         </section>
 
-        <footer>
-            <div></div>
-        </footer>
+            <footer>
+                <div>
+                    <h3>STREAM C 2021</h3>
+                    <div class="footer-icon"><img src="/assets/socials/youtube_icon.svg"></div>
+                    <div class="footer-icon"><img src="/assets/socials/facebook_icon.svg"></div>
+                    <div class="footer-icon"><img src="/assets/socials/twitter_icon.svg"></div>
+                    <div class="footer-icon"><img src="/assets/socials/instagram_icon.svg"></div>
+                </div>
+            </footer>
     </div>
